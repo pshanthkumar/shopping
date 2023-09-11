@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Ecommerce website</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+
+</head>
+
+<body>
+    <div class="header">
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <img src="./images/logo.png" width="125px" alt="">
+
+                </div>
+                <nav>
+                    <ul id="menuitems">
+                        <li><a href="">Home</a> </li>
+                        <li><a href="">Products</a> </li>
+                        <li><a href="">About</a> </li>
+                        <li><a href="">Contact</a> </li>
+                        <li><a href="">Account</a> </li>
+                    </ul>
+                </nav>
+                <img src="./images/cart.png" width="30px" height="30px">
+                <div id="menu-icon"><i class='bx bx-menu'  onclick="menutoggle()"></i></div>
+                
+            </div>
+            <div class="row">
+                <div class="col-2">
+                    <h1> Give Your Workout <br> A New Style!</h1>
+                    <p>Welcome to our blog, where we're about to serve you some serious <br>
+                        style inspiration for all the sports enthusiasts
+                        and fashion-forward individual athleticism.
+                    </p>
+                    <a href="" class="btn">Explore Now &#10132;</a>
+                </div>
+                <div class="col-2">
+                    <img src="./images/image1.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Featured categories -->
+
+    <div class="categories">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-3">
+                    <img src="./images/category-1.jpg" alt="">
+                </div>
+                <div class="col-3">
+                    <img src="./images/category-2.jpg" alt="">
+                </div>
+                <div class="col-3">
+                    <img src="./images/category-3.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- featured Products -->
+    <div class="small-container">
+        <h2 class="title">Featured Products</h2>
+        <div class="row">
+            <div class="col-4">
+                <img src="./images/product-1.jpg" alt="">
+                <h4>Red printed t-shirt</h4>
+                <div class="ratting">
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star-half'></i>
+                </div>
+                <p>$20.00</p>
+            </div>
+            <div class="col-4">
+                <img src="./images/product-2.jpg" alt="">
+                <h4>Red HRX branded shoes</h4>
+                <div class="ratting">
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star-half'> </i>
+                </div>
+                <p>$50.00</p>
+            </div>
+            <div class="col-4">
+                <img src="./images/product-3.jpg" alt="">
+                <h4>Gray color track phants</h4>
+                <div class="ratting">
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star-half'></i>
+                </div>
+                <p>$30.00</p>
+            </div>
+            <div class="col-4">
+                <img src="./images/product-4.jpg" alt="">
+                <h4>Blue printed t-shirt</h4>
+                <div class="ratting">
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star-half'></i>
+                </div>
+                <p>$30.00</p>
+            </div>
+        </div>
+        <!-- latest products  -->
+        <h2 class="title">Latest Products</h2>
+        <div class="row">
+            <div class="col-4">
+                <img src="./images/product-5.jpg" alt="">
+                <h4>Red printed t-shirt</h4>
+                <div class="ratting">
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star-half'></i>
+                </div>
+                <p>$20.00</p>
+            </div>
+            <div class="col-4">
+                <img src="./images/product-6.jpg" alt="">
+                <h4>Red HRX branded shoes</h4>
+                <div class="ratting">
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star-half'></i>
+                </div>
+                <p>$50.00</p>
+            </div>
+            <div class="col-4">
+                <img src="./images/product-7.jpg" alt="">
+                <h4>Gray color track phants</h4>
+                <div class="ratting">
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star-half'></i>
+                </div>
+                <p>$30.00</p>
+            </div>
+            <div class="col-4">
+                <img src="./images/product-8.jpg" alt="">
+                <h4>Blue printed t-shirt</h4>
+                <div class="ratting">
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star-half'></i>
+                </div>
+                <p>$30.00</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-4">
+                <img src="./images/product-9.jpg" alt="">
+                <h4>Red printed t-shirt</h4>
+                <div class="ratting">
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star-half'></i>
+                </div>
+                <p>$20.00</p>
+            </div>
+            <div class="col-4">
+                <img src="./images/product-10.jpg" alt="">
+                <h4>Red HRX branded shoes</h4>
+                <div class="ratting">
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star-half'></i>
+                </div>
+                <p>$50.00</p>
+            </div>
+            <div class="col-4">
+                <img src="./images/product-11.jpg" alt="">
+                <h4>Gray color track phants</h4>
+                <div class="ratting">
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star-half'></i>
+                </div>
+                <p>$30.00</p>
+            </div>
+            <div class="col-4">
+                <img src="./images/product-12.jpg" alt="">
+                <h4>Blue printed t-shirt</h4>
+                <div class="ratting">
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star-half'></i>
+                </div>
+                <p>$30.00</p>
+            </div>
+        </div>
+
+    </div>
+    <!-- offer  -->
+    <div class="offer">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-2">
+                    <img src="./images/exclusive.png" class="offer-img" alt="">
+                </div>
+                <div class="col-2">
+                    <p>Exclusively Available RED STORE</p>
+                    <h1>Smart Brand</h1>
+                    <small> This watch features a display that's always on so
+                        that you can have a quick look at the time effortlessly.</small> <br>
+                    <a href="" class="btn">Buy Now &#10132;</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Testimonials  -->
+    <div class="testimonials">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-3">
+                    <i class='bx bxs-quote-alt-left'></i>
+                    <p>Nice Product... Looks Impressive.... 👌
+                        <br>It doesn't have amoled skin, though it looks nothing less than amoled 👌👍
+                        Best for skinny people... 👌
+                    </p>
+                    <div class="ratting">
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star-half'></i>
+                    </div>
+                    <img src="./images/user-1.png" alt="">
+                    <h3>Selena Gomez</h3>
+                </div>
+                <div class="col-3">
+                    <i class='bx bxs-quote-alt-left'></i>
+                    <p>Nice Product... Looks Impressive.... 👌
+                        <br>It doesn't have amoled skin, though it looks nothing less than amoled 👌👍
+                        Best for skinny people... 👌
+                    </p>
+                    <div class="ratting">
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star-half'></i>
+                    </div>
+                    <img src="./images/user-2.png" alt="">
+                    <h3>Zayn Malik</h3>
+                </div>
+                <div class="col-3">
+                    <i class='bx bxs-quote-alt-left'></i>
+                    <p>Nice Product... Looks Impressive.... 👌
+                        <br>It doesn't have amoled skin, though it looks nothing less than amoled 👌👍
+                        Best for skinny people... 👌
+                    </p>
+                    <div class="ratting">
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star-half'></i>
+                    </div>
+                    <img src="./images/user-3.png" alt="">
+                    <h3>Billie Eilish</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- brands  -->
+
+    <div class="brands">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-5">
+                    <a href="https://www.godrejcp.com/" target="_blank"><img src="./images/logo-godrej.png" alt=""></a>
+                </div>
+                <div class="col-5">
+                    <a href="https://www.oppo.com/in/store?gclid=EAIaIQobChMIppSL3ezvgAMVV5JmAh1KjASmEAAYASAAEgJHpvD_BwE"
+                        target="_blank"><img src="./images/logo-oppo.png" alt=""> </a>
+                </div>
+                <div class="col-5">
+                    <a href="https://www.paypal.com/in/home" target="_blank"><img src="./images/logo-paypal.png" alt="">
+                    </a>
+                </div>
+                <div class="col-5">
+                    <a href="https://www.philips.co.in/" target="_blank"><img src="./images/logo-philips.png" alt="">
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- ------footer-------  -->
+
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Download Our APP</h3>
+                    <p> Download App for Android & icon mobile phone. </p>
+                    <div class="app-logo">
+                        <img src="./images/play-store.png" alt="">
+                        <img src="./images/app-store.png" alt="">
+                    </div>
+                </div>
+                <div class="footer-col-2">
+                    <img src="./images/logo-white.png" alt="">
+                    <p>Download App for Android & icon mobile phone.
+                        Make the plesure and benefits of sports <br>
+                        Accessible to Many.
+                    </p>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Useful links</h3>
+                    <li>Coupons</li>
+                    <li>Blog post</li>
+                    <li>Return policy</li>
+                    <li>Join Affiliated</li>
+                </div>
+                <div class="footer-col-4">
+                    <h3>Follow us</h3>
+                    <li>Coupons</li>
+                    <li>Blog post</li>
+                    <li>Return policy</li>
+                    <li>Join Affiliated</li>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <p class="copyright">Copyright 2023</p>
+    </div>
+
+    <!-- ------------ js toggle menu -----------  -->
+
+    <script>
+        var menuitems = document.getElementById("menuitems");
+
+        menuitems.style.height = "0px";
+
+        function menutoggle() {
+            if (menuitems.style.height == "0px")
+             {
+                menuitems.style.height = "270px";
+                menuitems.style.display="block"; 
+            }
+            else {
+                menuitems.style.height = "0px";
+            }
+        }
+    </script>
+
+</body>
+
+</html>
